@@ -3167,3 +3167,7 @@ input, select, textarea {
   color: #fff;
   text-decoration: none;
 }
+/* Helios Lightbox Fix */
+.lightbox:target {
+  display: flex !important;
+}
