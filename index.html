@@ -17,91 +17,6 @@
 <link href="assets/css/theme.css" rel="stylesheet">
 <link href="assets/css/user.css" rel="stylesheet">
 
-<style>
-
-/* Brand logo styling */
-
-.brand-logo{
-
-font-size:32px;
-font-weight:700;
-letter-spacing:1px;
-
-color:rgba(0,0,0,0.75);
-
-backdrop-filter:blur(6px);
-
-transition:all .3s ease;
-
-}
-
-.brand-logo:hover{
-
-color:#000;
-transform:scale(1.05);
-
-}
-
-/* Navigation styling */
-
-.navbar-nav li{
-
-margin-left:20px;
-
-}
-
-.navbar-nav a{
-
-font-size:16px;
-
-display:flex;
-
-align-items:center;
-
-gap:6px;
-
-}
-
-/* Hover circle effect */
-
-.navbar-nav li{
-
-position:relative;
-
-}
-
-.navbar-nav li::after{
-
-content:"";
-
-position:absolute;
-
-width:0;
-
-height:0;
-
-border:2px solid #ff8c00;
-
-border-radius:50%;
-
-top:-10px;
-
-left:-15px;
-
-transition:.3s ease;
-
-}
-
-.navbar-nav li:hover::after{
-
-width:40px;
-
-height:40px;
-
-}
-
-</style>
-
 </head>
 
 <body>
@@ -114,62 +29,40 @@ height:40px;
 
 <div class="d-flex justify-content-between w-100 align-items-center">
 
-<a class="navbar-brand brand-logo" href="index.html">
-
+<a class="navbar-brand fs-3 fw-bold text-black" href="index.html">
 LightFrame Studio
-
 </a>
 
 <ul class="navbar-nav navbar-fotogency ms-auto text-end d-flex flex-row">
 
 <li class="nav-item">
-
 <a class="nav-link active" href="index.html">
-
 <i class="fas fa-home"></i> Home
-
 </a>
-
 </li>
 
 <li class="nav-item">
-
 <a class="nav-link" href="portfolio.html">
-
 <i class="fas fa-camera"></i> Portfolio
-
 </a>
-
 </li>
 
 <li class="nav-item">
-
 <a class="nav-link" href="about.html">
-
 <i class="fas fa-user"></i> About
-
 </a>
-
 </li>
 
 <li class="nav-item">
-
 <a class="nav-link" href="contact.html">
-
 <i class="fas fa-envelope"></i> Contact
-
 </a>
-
 </li>
 
 <li class="nav-item">
-
 <a class="nav-link" href="https://www.instagram.com/lightframestudio.in" target="_blank">
-
 <i class="fab fa-instagram"></i> Instagram
-
 </a>
-
 </li>
 
 </ul>
@@ -187,7 +80,6 @@ LightFrame Studio
 <div style="height:90vh;overflow:hidden;">
 
 <img src="assets/img/home/hero.jpg"
-
 style="width:100%;height:100%;object-fit:cover;">
 
 </div>
@@ -212,6 +104,68 @@ LightFrame Studio is a creative photography space where moments are captured wit
 
 </section>
 
+<section class="py-7">
+
+<div class="container">
+
+<h2 class="text-center mb-5">Portfolio</h2>
+
+<div class="row g-4">
+
+<div class="col-md-3">
+
+<a href="portrait.html">
+
+<img src="images/portrait/p1.jpg" class="img-fluid rounded">
+
+<h5 class="mt-2 text-center">Portrait</h5>
+
+</a>
+
+</div>
+
+<div class="col-md-3">
+
+<a href="product.html">
+
+<img src="images/product/pr1.jpg" class="img-fluid rounded">
+
+<h5 class="mt-2 text-center">Product</h5>
+
+</a>
+
+</div>
+
+<div class="col-md-3">
+
+<a href="creative.html">
+
+<img src="images/creative/c1.jpg" class="img-fluid rounded">
+
+<h5 class="mt-2 text-center">Creative</h5>
+
+</a>
+
+</div>
+
+<div class="col-md-3">
+
+<a href="nature.html">
+
+<img src="images/nature/n1.jpg" class="img-fluid rounded">
+
+<h5 class="mt-2 text-center">Nature</h5>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
 
 <footer class="bg-footer-black" id="footer">
@@ -223,49 +177,28 @@ LightFrame Studio is a creative photography space where moments are captured wit
 <div class="col-md-6 mb-5 mb-md-0">
 
 <div class="mb-4 d-inline-block">
-
 <a class="navbar-brand pt-0 fs-3 text-white fw-bold" href="index.html">
-
 LightFrame Studio
-
 </a>
-
 </div>
 
 <div class="col-12 col-md-10 text-300 mb-3">
-
 <i class="fas fa-map-marker-alt"></i>
-
-<a class="nav-link text-300 d-inline" href="#">
-
 Bangalore, India
-
-</a>
-
 </div>
 
 <div class="col-12 col-md-10 text-300 mb-3">
-
 <i class="fas fa-phone"></i>
-
-<a class="nav-link text-300 d-inline" href="tel:+917008933947">
-
+<a class="text-300" href="tel:+917008933947">
 +91 70089 33947
-
 </a>
-
 </div>
 
 <div class="col-12 col-md-10 text-300 mb-3">
-
 <i class="fas fa-envelope"></i>
-
-<a class="nav-link text-300 d-inline" href="mailto:vineet@lightframe.co.in">
-
-[vineet@lightframe.co.in](mailto:vineet@lightframe.co.in)
-
+<a class="text-300" href="mailto:vineet@lightframe.co.in">
+vineet@lightframe.co.in
 </a>
-
 </div>
 
 </div>
@@ -277,14 +210,14 @@ Bangalore, India
 <div class="d-flex gap-3">
 
 <a class="social-icons"
-
 href="https://www.instagram.com/lightframestudio.in"
-
 target="_blank">
+Instagram </a>
 
-Instagram
-
-</a>
+<a class="social-icons"
+href="https://wa.me/917008933947"
+target="_blank">
+WhatsApp </a>
 
 </div>
 
@@ -305,9 +238,7 @@ Instagram
 <div class="col text-start">
 
 <p class="fs--1 my-2 fw-light text-100">
-
 © LightFrame Studio
-
 </p>
 
 </div>
